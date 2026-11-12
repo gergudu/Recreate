@@ -7,8 +7,6 @@
 # непроверенную информацию).
 # Запуск: Script Manager -> добавить эту папку -> запустить.
 
-from ghidra.program.model.symbol import SourceType
-
 currentProgram_ = currentProgram
 fm = currentProgram_.getFunctionManager()
 
